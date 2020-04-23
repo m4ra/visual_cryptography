@@ -7,5 +7,6 @@ Visual Cryptography was developed in the 90s, and could be a low-energy-footprin
 Participants will be invited to make visually encrypted messages by following a detailed tutorial prior to our online meeting. The tutorial will include how-tos for converting messages (from text, numbers, barcodes) to images, links to download and install free software tools, and resources for further reading on how Visual Cryptography works with pixel color splitting/swapping. 
 During the online call, we will look at the participants results, questions and any other feedback on the workshop’s content. Optionally, participants are also welcome to share their encrypted messages via email among them, prior to our online call.
 
-Duration: max 40min
-Number of participants: up to 10 for a call, much more over a chat.
+* Duration: 40min
+
+* Number of participants: up to 10 during a call, many more over a chat.
