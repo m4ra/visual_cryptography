@@ -8,18 +8,8 @@ Visual cryptography concept invented by Moni Naor & Adi Shamir
 VCK is copyrighted free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 as
 published by the Free Software Foundation.
-VCK is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
-details.
-You should have received a copy of the GNU General Public License along
-with VCK; see the file LICENSE.  
+See the file LICENSE.  
 https://www.gnu.org/licenses/gpl-3.0-standalone.html
-
-The Python Imaging Library (available from
-http://www.pythonware.com/products/pil/ and necessary to use this
-module), is Copyright (c) 1995-7 Fredrik Lundh, Copyright (c) 1997-8
-Secret Labs AB.  All rights reserved.
 
 ------------------------------------------------------------
 
