@@ -14,8 +14,10 @@ During our online meeting we will discuss how Virtual Cryptography works, troubl
 5. Print the shares on a transparency sheet and overlay them to decrypt the message. Or feed the shares to the relevant python script to generate the decrypted image. Upload results in the folder Decrypted_Messages.
 6. Online meeting to discuss how VC works (5 min), workshop outcome (10 min), troubleshoot problems you encountered (10 min), feedback on the workshop, usability of VC and other forms of secret writing (10 min). 
 
+
 ## Software
 * tools you need
+
 [Python scripts version 2.7](https://github.com/m4ra/visual_cryptography/cvk-tools)
 
 [Python scripts version 3](https://github.com/ageron/visual_crypto)
@@ -27,6 +29,7 @@ For creating the images:
 OR [Gimp](https://www.gimp.org/)
 
 OR [Imagemagick](https://www.imagemagick.org/script/download.php)
+
 
 ## Reading recources
 ### texts on Visual Cryptography aka VC
