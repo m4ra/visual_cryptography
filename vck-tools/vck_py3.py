@@ -1,5 +1,3 @@
-# $Id: vck.py,v 1.26 1998/11/04 00:05:16 fms Exp fms $
-#
 # Visual Cryptography Kit
 # (c) 1998 Olivetti Oracle Research Laboratory (ORL)
 #

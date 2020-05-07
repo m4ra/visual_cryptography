@@ -1,7 +1,3 @@
-#$Id: vck-split-mono.py,v 1.2 1998/11/04 01:31:38 fms Exp $
-# This file is part of the vck distribution: get the rest from
-# http://www.cl.cam.ac.uk/~fms27/vck/
-
 import vck
 import sys
 import os
