@@ -2,3 +2,8 @@
 vck-tools/tests
 
 .pyc
+.png
+.tif
+.tiff
+.jpg
+.jpeg
