@@ -93,8 +93,8 @@ class bitmap:
                 self.__image = Image.new("1", arg1, bitmap._pixelWhite)
 
         if not self.__image:
-            raise TypeError, "Give me EITHER a filename OR a " \
-                  "(width, height) pair and an optional string of binary data."
+            raise TypeError("Give me EITHER a filename OR a " \
+                  "(width, height) pair and an optional string of binary data.")
         
         self.__draw = ImageDraw.ImageDraw(self.__image)
 
@@ -105,10 +105,10 @@ class bitmap:
         (black ink)."""
 
         if colour == 0:
-	    self.__draw.point((x, y), fill="white")
+            self.__draw.point((x, y), fill="white")
             #self.__draw.setink(bitmap._pixelWhite)
         else:
-	    self.__draw.point((x, y), fill="black")
+            self.__draw.point((x, y), fill="black")
             #self.__draw.setink(bitmap._pixelBlack)
         #self.__draw.point((x, y))
         
@@ -167,7 +167,8 @@ def boolean(operation, bitmaps):
         for y in range(maxY):
             pixel = bitmaps[0].get(x,y)
             for b in bitmaps[1:]:
-                pixel = apply(operation, (pixel, b.get(x,y)))
+                #pixel = apply(operation, (pixel, b.get(x,y)))
+                pixel = operation(pixel, b.get(x,y))
             result.set(x,y,pixel)
     return result
 
@@ -256,7 +257,8 @@ class _viewer:
         else:
             options["pageheight"] ="%fm" % H
         self._c.update()
-        apply(self._c.postscript, (), options)
+        self._c.postscript((), **options)
+        #apply(self._c.postscript, (), options)
 
 
 

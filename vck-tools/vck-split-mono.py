@@ -7,7 +7,8 @@ import sys
 import os
 
 def quit(msg=""):
-    print "USAGE: python %s mypicture.tif\n Error: %s.\n" % (sys.argv[0], msg)
+    print("USAGE: python {} mypicture.tif\n Error: {}.\n".format(sys.argv[0], msg))
+    #print "USAGE: python %s mypicture.tif\n Error: %s.\n" % (sys.argv[0], msg)
     sys.exit()
 
 try:
@@ -20,7 +21,7 @@ if ext == "":
     quit("Filename has no extension")
     
 s1, s2 = vck.splitImage(filename, basename + "_1" + ext, basename + "_2" + ext)
-print s2
+print(s2)
 
 def display(root, share1=s1, share2=s2):
     # The function you pass to mainApp, which takes care of all the Tkinter
