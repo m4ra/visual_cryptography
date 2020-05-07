@@ -1,9 +1,21 @@
 # ignore test images
 vck-tools/tests
 
+# ignore image files
 .pyc
 .png
 .tif
 .tiff
 .jpg
 .jpeg
+
+# ignore gimp files
+.xcf
+# ignore postcript files
+.ps
+
+# ignore pad files
+.mfd
+.pbm
+
+__pycache__/
