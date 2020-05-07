@@ -18,9 +18,7 @@ During our online meeting we will discuss how Virtual Cryptography works, troubl
 ## Software
 * tools you need
 
-[Python scripts version 2.7](https://github.com/m4ra/visual_cryptography/cvk-tools)
-
-[Python scripts version 3](https://github.com/ageron/visual_crypto)
+[Python scripts](https://github.com/m4ra/visual_cryptography/)
 
 For creating the images:
 
