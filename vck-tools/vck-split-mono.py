@@ -30,7 +30,6 @@ def display(root, share1=s1, share2=s2):
     window1 = share1.view(root)
     window2 = share2.view(root)
     result = vck.OR(share1, share2)
-    print share1
     expandedCiphertext = result.pixelcode()
     expandedCiphertext.write('result.tif')
 
