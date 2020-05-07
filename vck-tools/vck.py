@@ -569,7 +569,7 @@ def testEncryptDecrypt(root):
     """Encrypt a monochrome image and decrypt it, showing the results on
     screen (work in memory, don't save to files)."""
     
-    plaintext = bitmap("vck.gif")
+    plaintext = bitmap("files/vck.gif")
     ciphertext, pad = encrypt(plaintext)
     decryptedResult = decrypt(ciphertext, pad)
     
@@ -583,7 +583,7 @@ def testAllIntermediateValues(root):
     """Encrypt a monochrome image and decrypt it, but do it all "by hand"
     and show all the intermediate results at each step."""
     
-    rawPlaintext = bitmap("vck.gif")
+    rawPlaintext = bitmap("files/vck.gif")
     v1 = rawPlaintext.view(root, "raw plaintext")
     
     rawPad = randomBitmap(rawPlaintext.size())
@@ -609,7 +609,7 @@ def testBooleanOps(root):
     image (vck.tif must be in the current directory) with a diagonal
     cross."""
     
-    letters = bitmap("vck.tif")
+    letters = bitmap("files/vck.tif")
     v1 = letters.view(root, "vck")
 
     cross = bitmap(letters.size())
@@ -668,14 +668,14 @@ def testSplitImage(root):
     """Split a monochrome image into two shares and write these to two
     files that can be viewed externally."""
     
-    s1, s2 = splitImage("vck.tif")
+    s1, s2 = splitImage("files/vck.tif")
     v = OR(s1, s2).view(root)
     return v
 
 def testSplitImageG(root):
     """Split a greyscale image into two shares (postscript files)."""
     
-    p, c, v1, v2 = splitImageG(root, "guido.tif")
+    p, c, v1, v2 = splitImageG(root, "files/guido.tif")
     p.renderOnCanvas(v2.canvas())
     v2.psprint("guido-decrypted.ps")
     return v2
