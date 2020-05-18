@@ -1,11 +1,11 @@
 # /Encrypt /Print /Decrypt - Introduction
 
-In this workshop we invite you to create Visual Cryptography with the help of a  a detailed tutorial/zine available to download. You can upload your results in the folder Encrypted_Messages and/or email other participants your encrypted messages so they can print them and decrypt them. You can also upload the decrypted messages and photos of the printed versions in the folder Decrypted_Messages.
+In this workshop we invite you to create Visual Cryptography with the help of a  a detailed tutorial/zine available to download. You can upload your results in the folder [Encrypted_Messages](https://github.com/m4ra/visual_cryptography/blob/master/Encrypted_Messages) and/or email other participants your encrypted messages so they can print them and decrypt them. You can also upload the decrypted messages and photos of the printed versions in the folder [Decrypted_Messages](https://github.com/m4ra/visual_cryptography/blob/master/Decrypted_Messages).
 
 During our online meeting we will discuss how Virtual Cryptography works, troubleshoot any problems you encountered in your process, look into the participants uploads, and have a final reflection on the usability of visual encryption and other methods of concealing information in writing.
 
 ## Summary of the tutorial
-* steps to create Visual Cryptography (for the full tutorial [download](https://mara.multiplace.org/vc-zine-screen-version.pdf) the zine)
+* steps to create Visual Cryptography (for the full tutorial [download](https://mara.multiplace.org/vc-zine/) the zine)
 
 1. Select a message such as a text, numbers, barcode (photos are more difficult to encrypt/decrypt since the process of VC lessens the sharpness of the original image)
 2. Convert the selected message to a Black&White image.
