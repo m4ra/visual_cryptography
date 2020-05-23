@@ -2,6 +2,7 @@
 vck-tools/tests
 
 # ignore image files
+files/*
 .pyc
 .png
 .tif
